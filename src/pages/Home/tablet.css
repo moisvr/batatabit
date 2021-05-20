@@ -1,0 +1,50 @@
+@media (min-width: 486px){
+    #toleft-tables, #toright-tables {
+        display: none;
+    }
+    .tables-slider {
+        overflow-x: unset;
+    }
+    .bitcoin-img-container {
+        background-image: url('../../assets/img/bitcoinbaby2x.png');
+    }
+}
+@media (min-width: 823px){
+    #toleft, #toright {
+        display: none;
+    }
+    .plans-container--slider{
+        overflow-x: unset;
+    }    
+    .bitcoin-img-container {
+        background-image: url('../../assets/img/bitcoinbaby4x.png');
+    }
+}
+@media (min-width: 842px){
+    .plan-card--ca__basic{
+        margin-top: 37px;
+    }
+}
+@media (min-width: 925px){
+    .plan-card--ca__recommended{
+        margin-top: 38px;
+    }
+}
+@media (min-width: 930px){
+    .products-cards--container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 920px;
+        margin: 0 auto;
+    }
+    .tables-slider {
+        width: 930px;
+        margin: 0 auto;
+    }
+    .bitcoin-img-container h2 {
+        font-size: 3.4rem;
+    }
+    .plans-container--slider {
+        justify-content: center;
+    }
+}
